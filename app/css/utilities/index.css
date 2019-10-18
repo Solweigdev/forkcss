@@ -1,0 +1,28 @@
+.uppercase, .upper {
+  text-transform: uppercase !important; }
+
+.lowercase, .lower {
+  text-transform: lowercase !important; }
+
+.capitalize, .capit {
+  text-transform: capitalize !important; }
+
+.normal-case, .normalc {
+  text-transform: none !important; }
+
+/*********************************/
+/************* COLOR *************/
+/*********************************/
+/* GRAY */
+/* RED */
+/* ORANGE */
+/* YELLOW */
+/* GREEN */
+/* TEAL */
+/* BLUE */
+/* INDIGO */
+/* PURPLE */
+/* PINK */
+/*********************************/
+/************** SIZE *************/
+/*********************************/

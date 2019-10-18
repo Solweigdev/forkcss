@@ -1,0 +1,48 @@
+@import '../utilities/variables';
+
+@mixin btn {
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    color: rgba(0,0,0,.6);
+    background-color: none;
+    padding: $size_2 $size_8;
+    line-height: $size_4;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    border-radius: $size_1;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    margin: $size_2;
+    transition: .2s;
+}
+
+@mixin outline($color-border) {
+    background-color: $white;
+    border: 1px solid $color-border;
+    color: $color-border;
+}
+
+@mixin outline-hover($color-border) {
+    background-color: $color-border;
+    border: 1px solid $color-border;
+    color: $white;
+}
+
+@mixin outline-disabled($color) {
+    background-color: $white;
+    color: $color;
+    opacity: 0.4; 
+    cursor: not-allowed;
+}
+
+@mixin btn-disabled($color) {
+    opacity: 0.4; 
+    cursor: not-allowed;
+}
+
+@mixin btn-hover() {
+    opacity: 1
+}

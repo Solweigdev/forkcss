@@ -1,0 +1,121 @@
+@import '../mixins/_buttons.scss';
+
+.fc {
+
+    &.btn {
+        @include btn;
+
+        &.primary {
+            background-color: $blue;
+            color: $white;
+
+            &:disabled {
+                @include btn-disabled($blue)
+            }
+
+            &.outline {
+                @include outline($blue);
+
+                &:hover {
+                    @include outline-hover($blue);
+                }
+
+                &:disabled {
+                    @include outline-disabled($blue);
+                }
+            }
+        }
+
+        &.secondary {
+            background-color: $gray_bold;
+            color: $white;
+
+            &:disabled {
+                @include btn-disabled($gray_bold)
+            }
+
+            &:hover {
+                
+            }
+
+            &.outline {
+                @include outline($gray_bold);
+
+                &:hover {
+                    @include outline-hover($gray_bold);
+                }
+
+                &:disabled {
+                    @include outline-disabled($gray_bold);
+                }
+            }
+        }
+
+        &.danger {
+            background-color: $red;
+            color: $white;
+
+            &:disabled {
+                @include btn-disabled($red)
+            }
+
+            &.outline {
+                @include outline($red);
+
+                &:hover {
+                    @include outline-hover($red);
+                }
+
+                &:disabled {
+                    @include outline-disabled($red)
+                }
+            }
+        }
+
+        &.success {
+            background-color: $green;
+            color: $white;
+
+            &:disabled {
+                @include btn-disabled($green)
+            }
+
+            &.outline {
+                @include outline($green);
+
+                &:hover {
+                    @include outline-hover($green);
+                }
+
+                &:disabled {
+                    @include outline-disabled($green)
+                }
+            }
+        }
+
+        &.warning {
+            background-color: $yellow;
+            color: $white;
+
+            &:disabled {
+                @include btn-disabled($yellow)
+            }
+
+            &.outline {
+                @include outline($yellow);
+
+                &:hover {
+                    @include outline-hover($yellow);
+                }
+
+                &:disabled {
+                    @include outline-disabled($yellow)
+                }
+            }
+        }
+
+        &.round, &.arround {
+            border-radius: 150px
+        }
+    }
+}

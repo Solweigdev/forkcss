@@ -1,0 +1,174 @@
+.uppercase, .upper {
+  text-transform: uppercase !important; }
+
+.lowercase, .lower {
+  text-transform: lowercase !important; }
+
+.capitalize, .capit {
+  text-transform: capitalize !important; }
+
+.normal-case, .normalc {
+  text-transform: none !important; }
+
+/*********************************/
+/************* COLOR *************/
+/*********************************/
+/* GRAY */
+/* RED */
+/* ORANGE */
+/* YELLOW */
+/* GREEN */
+/* TEAL */
+/* BLUE */
+/* INDIGO */
+/* PURPLE */
+/* PINK */
+/*********************************/
+/************** SIZE *************/
+/*********************************/
+/*********************************/
+/************* COLOR *************/
+/*********************************/
+/* GRAY */
+/* RED */
+/* ORANGE */
+/* YELLOW */
+/* GREEN */
+/* TEAL */
+/* BLUE */
+/* INDIGO */
+/* PURPLE */
+/* PINK */
+/*********************************/
+/************** SIZE *************/
+/*********************************/
+/*********************************/
+/************* COLOR *************/
+/*********************************/
+/* GRAY */
+/* RED */
+/* ORANGE */
+/* YELLOW */
+/* GREEN */
+/* TEAL */
+/* BLUE */
+/* INDIGO */
+/* PURPLE */
+/* PINK */
+/*********************************/
+/************** SIZE *************/
+/*********************************/
+.fc.btn {
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  color: rgba(0, 0, 0, 0.6);
+  background-color: none;
+  padding: 0.5rem 2.5rem;
+  line-height: 1rem;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  text-transform: none;
+  text-shadow: none;
+  font-weight: 700;
+  margin: 0.5rem;
+  transition: .2s; }
+  .fc.btn.primary {
+    background-color: #2b6cb0;
+    color: #fff; }
+    .fc.btn.primary:disabled {
+      opacity: 0.4;
+      cursor: not-allowed; }
+    .fc.btn.primary.outline {
+      background-color: #fff;
+      border: 1px solid #2b6cb0;
+      color: #2b6cb0; }
+      .fc.btn.primary.outline:hover {
+        background-color: #2b6cb0;
+        border: 1px solid #2b6cb0;
+        color: #fff; }
+      .fc.btn.primary.outline:disabled {
+        background-color: #fff;
+        color: #2b6cb0;
+        opacity: 0.4;
+        cursor: not-allowed; }
+  .fc.btn.secondary {
+    background-color: #1a202c;
+    color: #fff; }
+    .fc.btn.secondary:disabled {
+      opacity: 0.4;
+      cursor: not-allowed; }
+    .fc.btn.secondary.outline {
+      background-color: #fff;
+      border: 1px solid #1a202c;
+      color: #1a202c; }
+      .fc.btn.secondary.outline:hover {
+        background-color: #1a202c;
+        border: 1px solid #1a202c;
+        color: #fff; }
+      .fc.btn.secondary.outline:disabled {
+        background-color: #fff;
+        color: #1a202c;
+        opacity: 0.4;
+        cursor: not-allowed; }
+  .fc.btn.danger {
+    background-color: #c53030;
+    color: #fff; }
+    .fc.btn.danger:disabled {
+      opacity: 0.4;
+      cursor: not-allowed; }
+    .fc.btn.danger.outline {
+      background-color: #fff;
+      border: 1px solid #c53030;
+      color: #c53030; }
+      .fc.btn.danger.outline:hover {
+        background-color: #c53030;
+        border: 1px solid #c53030;
+        color: #fff; }
+      .fc.btn.danger.outline:disabled {
+        background-color: #fff;
+        color: #c53030;
+        opacity: 0.4;
+        cursor: not-allowed; }
+  .fc.btn.success {
+    background-color: #2f855a;
+    color: #fff; }
+    .fc.btn.success:disabled {
+      opacity: 0.4;
+      cursor: not-allowed; }
+    .fc.btn.success.outline {
+      background-color: #fff;
+      border: 1px solid #2f855a;
+      color: #2f855a; }
+      .fc.btn.success.outline:hover {
+        background-color: #2f855a;
+        border: 1px solid #2f855a;
+        color: #fff; }
+      .fc.btn.success.outline:disabled {
+        background-color: #fff;
+        color: #2f855a;
+        opacity: 0.4;
+        cursor: not-allowed; }
+  .fc.btn.warning {
+    background-color: #ecc94b;
+    color: #fff; }
+    .fc.btn.warning:disabled {
+      opacity: 0.4;
+      cursor: not-allowed; }
+    .fc.btn.warning.outline {
+      background-color: #fff;
+      border: 1px solid #ecc94b;
+      color: #ecc94b; }
+      .fc.btn.warning.outline:hover {
+        background-color: #ecc94b;
+        border: 1px solid #ecc94b;
+        color: #fff; }
+      .fc.btn.warning.outline:disabled {
+        background-color: #fff;
+        color: #ecc94b;
+        opacity: 0.4;
+        cursor: not-allowed; }
+  .fc.btn.round, .fc.btn.arround {
+    border-radius: 150px; }
